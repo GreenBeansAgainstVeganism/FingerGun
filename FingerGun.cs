@@ -3,8 +3,6 @@ using BTD_Mod_Helper;
 using FingerGun;
 using HarmonyLib;
 using Il2CppAssets.Scripts.Unity.UI_New.InGame;
-using BTD_Mod_Helper;
-using MelonLoader;
 using BTD_Mod_Helper.Api.ModOptions;
 using BTD_Mod_Helper.Api;
 using BTD_Mod_Helper.Extensions;
