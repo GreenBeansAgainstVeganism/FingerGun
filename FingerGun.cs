@@ -66,7 +66,7 @@ namespace FingerGun
     internal static void Postfix(InputManager __instance)
     {
       int pierce = FingerGun.ClickPierce;
-      BloonToSimulation[] bloonsims = InGame.instance.bridge.GetAllBloons().ToArray();
+      System.Collections.Generic.List<BloonToSimulation> bloonsims = InGame.instance.bridge.GetAllBloons().ToList();
       foreach (BloonToSimulation sim in bloonsims)
       {
         Bloon b = sim.GetBloon();
